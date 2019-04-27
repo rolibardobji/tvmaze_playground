@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		9A207EB22274393E00C22279 /* TVMazeCommunications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A207EB12274393E00C22279 /* TVMazeCommunications.swift */; };
 		9A207EB622743AE300C22279 /* SeriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A207EB522743AE300C22279 /* SeriesController.swift */; };
-		9A207EDE2274F22B00C22279 /* UAT.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A207EDD2274F22B00C22279 /* UAT.plist */; };
-		9A207EE02274F23500C22279 /* QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A207EDF2274F23500C22279 /* QA.plist */; };
-		9A207EE22274F24200C22279 /* Beta.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A207EE12274F24200C22279 /* Beta.plist */; };
-		9A207EE42274F24B00C22279 /* Production.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A207EE32274F24B00C22279 /* Production.plist */; };
 		9A4C649922724ECF002A6A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C649822724ECF002A6A74 /* AppDelegate.swift */; };
 		9A4C649B22724ECF002A6A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C649A22724ECF002A6A74 /* ViewController.swift */; };
 		9A4C649E22724ECF002A6A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C649C22724ECF002A6A74 /* Main.storyboard */; };
@@ -56,17 +52,13 @@
 		9A207EDA2274E29F00C22279 /* QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QA.xcconfig; sourceTree = "<group>"; };
 		9A207EDB2274E2A900C22279 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		9A207EDC2274E2B500C22279 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
-		9A207EDD2274F22B00C22279 /* UAT.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UAT.plist; sourceTree = "<group>"; };
-		9A207EDF2274F23500C22279 /* QA.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QA.plist; sourceTree = "<group>"; };
-		9A207EE12274F24200C22279 /* Beta.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Beta.plist; sourceTree = "<group>"; };
-		9A207EE32274F24B00C22279 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Production.plist; sourceTree = "<group>"; };
 		9A4C649522724ECF002A6A74 /* JobsityChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsityChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4C649822724ECF002A6A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A4C649A22724ECF002A6A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A4C649D22724ECF002A6A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A4C649F22724ED0002A6A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4C64A222724ED0002A6A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9A4C64A422724ED0002A6A74 /* Development.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Development.plist; sourceTree = "<group>"; };
+		9A4C64A422724ED0002A6A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4C64A922724ED1002A6A74 /* JobsityChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsityChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4C64AD22724ED1002A6A74 /* JobsityChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsityChallengeTests.swift; sourceTree = "<group>"; };
 		9A4C64AF22724ED1002A6A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -193,11 +185,7 @@
 				9A4C649C22724ECF002A6A74 /* Main.storyboard */,
 				9A4C649F22724ED0002A6A74 /* Assets.xcassets */,
 				9A4C64A122724ED0002A6A74 /* LaunchScreen.storyboard */,
-				9A207EE12274F24200C22279 /* Beta.plist */,
-				9A207EE32274F24B00C22279 /* Production.plist */,
-				9A4C64A422724ED0002A6A74 /* Development.plist */,
-				9A207EDF2274F23500C22279 /* QA.plist */,
-				9A207EDD2274F22B00C22279 /* UAT.plist */,
+				9A4C64A422724ED0002A6A74 /* Info.plist */,
 			);
 			path = JobsityChallenge;
 			sourceTree = "<group>";
@@ -342,12 +330,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4C64A322724ED0002A6A74 /* LaunchScreen.storyboard in Resources */,
-				9A207EDE2274F22B00C22279 /* UAT.plist in Resources */,
-				9A207EE22274F24200C22279 /* Beta.plist in Resources */,
 				9A4C64A022724ED0002A6A74 /* Assets.xcassets in Resources */,
 				9A4C649E22724ECF002A6A74 /* Main.storyboard in Resources */,
-				9A207EE42274F24B00C22279 /* Production.plist in Resources */,
-				9A207EE02274F23500C22279 /* QA.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +511,7 @@
 /* Begin XCBuildConfiguration section */
 		9A207EB722743C3800C22279 /* Debug (Production) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207EDC2274E2B500C22279 /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -593,7 +578,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Production.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,7 +598,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Production.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -634,7 +619,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Production.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -650,6 +635,7 @@
 		};
 		9A207EBB22743C3B00C22279 /* Debug (Beta) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207EDB2274E2A900C22279 /* Beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -716,7 +702,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Beta.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -736,7 +722,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Beta.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -757,7 +743,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Beta.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -773,6 +759,7 @@
 		};
 		9A207EBF22743C3D00C22279 /* Debug (QA) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207EDA2274E29F00C22279 /* QA.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -839,7 +826,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/QA.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -859,7 +846,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/QA.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -880,7 +867,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/QA.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -896,6 +883,7 @@
 		};
 		9A207EC322743C3F00C22279 /* Debug (UAT) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207ED92274E28F00C22279 /* UAT.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -962,7 +950,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/UAT.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -982,7 +970,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/UAT.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1003,7 +991,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/UAT.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1019,6 +1007,7 @@
 		};
 		9A207EC722743C7100C22279 /* Release (QA) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207EDA2274E29F00C22279 /* QA.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1079,7 +1068,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/QA.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1099,7 +1088,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/QA.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1120,7 +1109,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/QA.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1136,6 +1125,7 @@
 		};
 		9A207ECB22743C7300C22279 /* Release (Beta) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207EDB2274E2A900C22279 /* Beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1196,7 +1186,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Beta.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1216,7 +1206,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Beta.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1237,7 +1227,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Beta.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1253,6 +1243,7 @@
 		};
 		9A207ECF22743C7600C22279 /* Release (Production) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207EDC2274E2B500C22279 /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1313,7 +1304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Production.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1333,7 +1324,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Production.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1354,7 +1345,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Production.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1370,6 +1361,7 @@
 		};
 		9A207ED322743C7B00C22279 /* Release (UAT) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207ED92274E28F00C22279 /* UAT.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1430,7 +1422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/UAT.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1450,7 +1442,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/UAT.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1471,7 +1463,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/UAT.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1487,6 +1479,7 @@
 		};
 		9A4C64BB22724ED1002A6A74 /* Debug (Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207ED82274E27900C22279 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1548,6 +1541,7 @@
 		};
 		9A4C64BC22724ED1002A6A74 /* Release (Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A207ED82274E27900C22279 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1608,7 +1602,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Development.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1627,7 +1621,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Development.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1647,7 +1641,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Development.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1669,7 +1663,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Development.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1690,7 +1684,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Development.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1711,7 +1705,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
-				INFOPLIST_FILE = JobsityChallenge/Development.plist;
+				INFOPLIST_FILE = JobsityChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
