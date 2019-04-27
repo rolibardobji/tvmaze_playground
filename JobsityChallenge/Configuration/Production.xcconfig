@@ -1,0 +1,12 @@
+//
+//  Production.xcconfig
+//  JobsityChallenge
+//
+//  Created by Ronny Libardo Bustos Jiménez on 4/27/19.
+//  Copyright © 2019 Ronny Libardo Bustos Jiménez. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+TVMAZE_API_BASE_URL = https://api.tvmaze.com
