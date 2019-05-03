@@ -9,4 +9,4 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-TVMAZE_API_BASE_URL = https://api.tvmaze.com
+TVMAZE_API_BASE_URL = https:\/\/api.tvmaze.com

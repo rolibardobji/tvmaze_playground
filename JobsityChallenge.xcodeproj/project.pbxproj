@@ -8,14 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		9A207EB22274393E00C22279 /* TVMazeCommunications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A207EB12274393E00C22279 /* TVMazeCommunications.swift */; };
-		9A207EB622743AE300C22279 /* SeriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A207EB522743AE300C22279 /* SeriesController.swift */; };
+		9A207EB622743AE300C22279 /* ShowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A207EB522743AE300C22279 /* ShowsController.swift */; };
+		9A207EE522750A1900C22279 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A207ED82274E27900C22279 /* Development.xcconfig */; };
+		9A207EE622750A1C00C22279 /* UAT.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A207ED92274E28F00C22279 /* UAT.xcconfig */; };
+		9A207EE722750A1F00C22279 /* QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A207EDA2274E29F00C22279 /* QA.xcconfig */; };
+		9A207EE822750A2300C22279 /* Beta.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A207EDB2274E2A900C22279 /* Beta.xcconfig */; };
+		9A207EE922750A2600C22279 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 9A207EDC2274E2B500C22279 /* Production.xcconfig */; };
+		9A207EEB22750BF900C22279 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A207EEA22750BF900C22279 /* Environment.swift */; };
+		9A2CBD9722752FE0009EFD63 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBD9622752FE0009EFD63 /* Show.swift */; };
+		9A2CBD9B227530CB009EFD63 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBD99227530CB009EFD63 /* Model.xcdatamodeld */; };
+		9A2CBDA2227532B4009EFD63 /* Schedule+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBD9C227532B4009EFD63 /* Schedule+CoreDataClass.swift */; };
+		9A2CBDA3227532B4009EFD63 /* Schedule+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBD9D227532B4009EFD63 /* Schedule+CoreDataProperties.swift */; };
+		9A2CBDA4227532B4009EFD63 /* Favorite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBD9E227532B4009EFD63 /* Favorite+CoreDataClass.swift */; };
+		9A2CBDA5227532B4009EFD63 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBD9F227532B4009EFD63 /* Favorite+CoreDataProperties.swift */; };
+		9A2CBDA6227532B4009EFD63 /* Episode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBDA0227532B4009EFD63 /* Episode+CoreDataClass.swift */; };
+		9A2CBDA7227532B4009EFD63 /* Episode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBDA1227532B4009EFD63 /* Episode+CoreDataProperties.swift */; };
+		9A2CBDA922753319009EFD63 /* ShowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBDA822753319009EFD63 /* ShowsViewModel.swift */; };
+		9A2CBDAB2275335A009EFD63 /* ShowsTVMazeOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBDAA2275335A009EFD63 /* ShowsTVMazeOperations.swift */; };
+		9A2CBDAD2277FB9B009EFD63 /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2CBDAC2277FB9B009EFD63 /* ShowCell.swift */; };
 		9A4C649922724ECF002A6A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C649822724ECF002A6A74 /* AppDelegate.swift */; };
-		9A4C649B22724ECF002A6A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C649A22724ECF002A6A74 /* ViewController.swift */; };
 		9A4C649E22724ECF002A6A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C649C22724ECF002A6A74 /* Main.storyboard */; };
 		9A4C64A022724ED0002A6A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C649F22724ED0002A6A74 /* Assets.xcassets */; };
 		9A4C64A322724ED0002A6A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C64A122724ED0002A6A74 /* LaunchScreen.storyboard */; };
-		9A4C64AE22724ED1002A6A74 /* JobsityChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C64AD22724ED1002A6A74 /* JobsityChallengeTests.swift */; };
 		9A4C64B922724ED1002A6A74 /* JobsityChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C64B822724ED1002A6A74 /* JobsityChallengeUITests.swift */; };
+		9A92994E22782D4D008E8260 /* ShowEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92994D22782D4D008E8260 /* ShowEpisode.swift */; };
+		9A92995022782FA0008E8260 /* ShowEpisodesTVMazeOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92994F22782FA0008E8260 /* ShowEpisodesTVMazeOperations.swift */; };
+		9A929953227834D7008E8260 /* StringUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A929952227834D7008E8260 /* StringUtilities.swift */; };
+		9A929956227835BE008E8260 /* ShowDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A929955227835BE008E8260 /* ShowDetailController.swift */; };
+		9A929958227835E1008E8260 /* ShowDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A929957227835E1008E8260 /* ShowDetailViewModel.swift */; };
+		9A92995B227A8950008E8260 /* EpisodeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92995A227A8950008E8260 /* EpisodeDetailController.swift */; };
+		9A92995D227A8964008E8260 /* EpisodeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92995C227A8964008E8260 /* EpisodeDetailViewModel.swift */; };
+		9A929962227AAF03008E8260 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A929961227AAF03008E8260 /* SearchController.swift */; };
+		9A929964227AAF1C008E8260 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A929963227AAF1C008E8260 /* SearchViewModel.swift */; };
+		9A92996A227B7FB5008E8260 /* ShowsTVMazeOperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A929969227B7FB5008E8260 /* ShowsTVMazeOperationsTests.swift */; };
 		B4D7C87A43D2FD9FD1AA308C /* Pods_JobsityChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C9C9196214F56CC94AC432 /* Pods_JobsityChallengeTests.framework */; };
 		C4E77C307BB0E87ADE9B5AFB /* Pods_JobsityChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6018CA5C93660D95868FE0F /* Pods_JobsityChallengeUITests.framework */; };
 		DEFD75BF7AC5ACDAD9C5E18E /* Pods_JobsityChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2E30067E496220FB188DA9 /* Pods_JobsityChallenge.framework */; };
@@ -40,34 +65,85 @@
 
 /* Begin PBXFileReference section */
 		05C9C9196214F56CC94AC432 /* Pods_JobsityChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsityChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3D4624CF333BB8A11D32C5 /* Pods-JobsityChallengeUITests.release (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.release (uat).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.release (uat).xcconfig"; sourceTree = "<group>"; };
+		0B5CF253182F08120845AF06 /* Pods-JobsityChallenge.release (qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.release (qa).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.release (qa).xcconfig"; sourceTree = "<group>"; };
+		0BD88A1DA98AB195D16316B2 /* Pods-JobsityChallengeTests.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.release (production).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.release (production).xcconfig"; sourceTree = "<group>"; };
+		1401B918545129EEF31D2AB5 /* Pods-JobsityChallenge.release (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.release (uat).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.release (uat).xcconfig"; sourceTree = "<group>"; };
 		32CB9E227C1220601B800BD0 /* Pods-JobsityChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.release.xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		39E67334089C6BB5F33A13F4 /* Pods-JobsityChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D2E30067E496220FB188DA9 /* Pods_JobsityChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsityChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE8017F6FA5D8CD0500FA1C /* Pods-JobsityChallengeTests.release (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.release (development).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.release (development).xcconfig"; sourceTree = "<group>"; };
+		42A920F1AF78D66492A46E33 /* Pods-JobsityChallenge.debug (beta).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.debug (beta).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.debug (beta).xcconfig"; sourceTree = "<group>"; };
+		46372F843A91F0EAF91437EF /* Pods-JobsityChallengeTests.debug (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.debug (development).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.debug (development).xcconfig"; sourceTree = "<group>"; };
+		4AB9C2D712EE3CCE37A966AB /* Pods-JobsityChallenge.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.release (production).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.release (production).xcconfig"; sourceTree = "<group>"; };
+		4B0D1AF3670B425C291696EE /* Pods-JobsityChallenge.debug (qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.debug (qa).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.debug (qa).xcconfig"; sourceTree = "<group>"; };
+		585DAF01C2F7711B4D862B97 /* Pods-JobsityChallenge.release (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.release (development).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.release (development).xcconfig"; sourceTree = "<group>"; };
+		5B0BA3051EE6E3E3C3FA0972 /* Pods-JobsityChallengeTests.debug (beta).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.debug (beta).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.debug (beta).xcconfig"; sourceTree = "<group>"; };
+		5DE001FF308B3E9BCD3B3DEE /* Pods-JobsityChallenge.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.debug (production).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.debug (production).xcconfig"; sourceTree = "<group>"; };
+		7032ED63AA41C05C2F17F12C /* Pods-JobsityChallengeUITests.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.debug (production).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.debug (production).xcconfig"; sourceTree = "<group>"; };
+		79505E8008EFF22FDABDF1A1 /* Pods-JobsityChallengeTests.debug (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.debug (uat).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.debug (uat).xcconfig"; sourceTree = "<group>"; };
+		800CE7404EA4DC66C2168207 /* Pods-JobsityChallengeTests.debug (qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.debug (qa).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.debug (qa).xcconfig"; sourceTree = "<group>"; };
 		8064F8994B98CE986FB9315C /* Pods-JobsityChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		859BCD71B6657B96BD468089 /* Pods-JobsityChallengeTests.debug (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.debug (production).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.debug (production).xcconfig"; sourceTree = "<group>"; };
 		89ABB1656561F21D5A87ACD1 /* Pods-JobsityChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89D5A0FD38BB60E0AA78F57B /* Pods-JobsityChallengeTests.release (beta).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.release (beta).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.release (beta).xcconfig"; sourceTree = "<group>"; };
 		9A207EB12274393E00C22279 /* TVMazeCommunications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMazeCommunications.swift; sourceTree = "<group>"; };
-		9A207EB522743AE300C22279 /* SeriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesController.swift; sourceTree = "<group>"; };
+		9A207EB522743AE300C22279 /* ShowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsController.swift; sourceTree = "<group>"; };
 		9A207ED82274E27900C22279 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		9A207ED92274E28F00C22279 /* UAT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UAT.xcconfig; sourceTree = "<group>"; };
 		9A207EDA2274E29F00C22279 /* QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QA.xcconfig; sourceTree = "<group>"; };
 		9A207EDB2274E2A900C22279 /* Beta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Beta.xcconfig; sourceTree = "<group>"; };
 		9A207EDC2274E2B500C22279 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		9A207EEA22750BF900C22279 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		9A2CBD9622752FE0009EFD63 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		9A2CBD9A227530CB009EFD63 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9A2CBD9C227532B4009EFD63 /* Schedule+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Schedule+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A2CBD9D227532B4009EFD63 /* Schedule+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Schedule+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A2CBD9E227532B4009EFD63 /* Favorite+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A2CBD9F227532B4009EFD63 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A2CBDA0227532B4009EFD63 /* Episode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Episode+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A2CBDA1227532B4009EFD63 /* Episode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Episode+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A2CBDA822753319009EFD63 /* ShowsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsViewModel.swift; sourceTree = "<group>"; };
+		9A2CBDAA2275335A009EFD63 /* ShowsTVMazeOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsTVMazeOperations.swift; sourceTree = "<group>"; };
+		9A2CBDAC2277FB9B009EFD63 /* ShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
 		9A4C649522724ECF002A6A74 /* JobsityChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsityChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4C649822724ECF002A6A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A4C649A22724ECF002A6A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A4C649D22724ECF002A6A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A4C649F22724ED0002A6A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4C64A222724ED0002A6A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4C64A422724ED0002A6A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4C64A922724ED1002A6A74 /* JobsityChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsityChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4C64AD22724ED1002A6A74 /* JobsityChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsityChallengeTests.swift; sourceTree = "<group>"; };
 		9A4C64AF22724ED1002A6A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4C64B422724ED1002A6A74 /* JobsityChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsityChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4C64B822724ED1002A6A74 /* JobsityChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsityChallengeUITests.swift; sourceTree = "<group>"; };
 		9A4C64BA22724ED1002A6A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A92994D22782D4D008E8260 /* ShowEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEpisode.swift; sourceTree = "<group>"; };
+		9A92994F22782FA0008E8260 /* ShowEpisodesTVMazeOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEpisodesTVMazeOperations.swift; sourceTree = "<group>"; };
+		9A929952227834D7008E8260 /* StringUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilities.swift; sourceTree = "<group>"; };
+		9A929955227835BE008E8260 /* ShowDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailController.swift; sourceTree = "<group>"; };
+		9A929957227835E1008E8260 /* ShowDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewModel.swift; sourceTree = "<group>"; };
+		9A92995A227A8950008E8260 /* EpisodeDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailController.swift; sourceTree = "<group>"; };
+		9A92995C227A8964008E8260 /* EpisodeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewModel.swift; sourceTree = "<group>"; };
+		9A929961227AAF03008E8260 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		9A929963227AAF1C008E8260 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		9A929965227B7DBA008E8260 /* JobsityChallengeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsityChallengeTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A929969227B7FB5008E8260 /* ShowsTVMazeOperationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsTVMazeOperationsTests.swift; sourceTree = "<group>"; };
+		A65D8BB3219FD68D502336AA /* Pods-JobsityChallengeUITests.release (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.release (development).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.release (development).xcconfig"; sourceTree = "<group>"; };
 		AF95601084B05DBC7D760D1D /* Pods-JobsityChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B4E5E67D377EF8E600029D26 /* Pods-JobsityChallengeUITests.debug (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.debug (development).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.debug (development).xcconfig"; sourceTree = "<group>"; };
+		BCF938ADD4E116660F792A40 /* Pods-JobsityChallengeUITests.debug (qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.debug (qa).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.debug (qa).xcconfig"; sourceTree = "<group>"; };
+		C5546081FA222824CF984059 /* Pods-JobsityChallengeUITests.release (production).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.release (production).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.release (production).xcconfig"; sourceTree = "<group>"; };
+		D2247B012CC6E100B0A4E172 /* Pods-JobsityChallenge.debug (development).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.debug (development).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.debug (development).xcconfig"; sourceTree = "<group>"; };
+		DAFC1C2D3944EE787B464254 /* Pods-JobsityChallengeTests.release (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.release (uat).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.release (uat).xcconfig"; sourceTree = "<group>"; };
+		DC989814F9FE02C01CA43E55 /* Pods-JobsityChallengeUITests.debug (beta).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.debug (beta).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.debug (beta).xcconfig"; sourceTree = "<group>"; };
+		E123BAAD1AB95476A8E9E3F3 /* Pods-JobsityChallenge.debug (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.debug (uat).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.debug (uat).xcconfig"; sourceTree = "<group>"; };
+		E2559DFEF0E8B250DFE12BF9 /* Pods-JobsityChallengeUITests.release (qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.release (qa).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.release (qa).xcconfig"; sourceTree = "<group>"; };
+		E2A652E86B0759990A2F042D /* Pods-JobsityChallengeUITests.debug (uat).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.debug (uat).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.debug (uat).xcconfig"; sourceTree = "<group>"; };
 		E6018CA5C93660D95868FE0F /* Pods_JobsityChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsityChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E774AE5F8D6A03C9AFFD75D4 /* Pods-JobsityChallenge.release (beta).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.release (beta).xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.release (beta).xcconfig"; sourceTree = "<group>"; };
+		EA9F31667260E04830692519 /* Pods-JobsityChallengeTests.release (qa).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeTests.release (qa).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeTests/Pods-JobsityChallengeTests.release (qa).xcconfig"; sourceTree = "<group>"; };
 		F71083199EADA4A23E5164D2 /* Pods-JobsityChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallenge.debug.xcconfig"; path = "Target Support Files/Pods-JobsityChallenge/Pods-JobsityChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5FB5DFD7E78A7F42E466EA /* Pods-JobsityChallengeUITests.release (beta).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsityChallengeUITests.release (beta).xcconfig"; path = "Target Support Files/Pods-JobsityChallengeUITests/Pods-JobsityChallengeUITests.release (beta).xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +187,9 @@
 		9A207EAF2274391600C22279 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A92994C22782D36008E8260 /* Episodes */,
+				9A2CBD98227530B6009EFD63 /* CoreData */,
+				9A2CBD9522752F99009EFD63 /* Shows */,
 				9A207EB02274391B00C22279 /* TVMaze */,
 			);
 			path = Models;
@@ -127,17 +206,22 @@
 		9A207EB322743AC300C22279 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				9A207EB422743ACC00C22279 /* Series */,
+				9A929960227AAEE6008E8260 /* Settings */,
+				9A92995E227AAED6008E8260 /* Search */,
+				9A207EB422743ACC00C22279 /* Shows */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		9A207EB422743ACC00C22279 /* Series */ = {
+		9A207EB422743ACC00C22279 /* Shows */ = {
 			isa = PBXGroup;
 			children = (
-				9A207EB522743AE300C22279 /* SeriesController.swift */,
+				9A207EB522743AE300C22279 /* ShowsController.swift */,
+				9A2CBDA822753319009EFD63 /* ShowsViewModel.swift */,
+				9A2CBDAC2277FB9B009EFD63 /* ShowCell.swift */,
+				9A929954227835A4008E8260 /* ShowDetail */,
 			);
-			path = Series;
+			path = Shows;
 			sourceTree = "<group>";
 		};
 		9A207ED72274E25600C22279 /* Configuration */ = {
@@ -148,8 +232,32 @@
 				9A207EDA2274E29F00C22279 /* QA.xcconfig */,
 				9A207EDB2274E2A900C22279 /* Beta.xcconfig */,
 				9A207EDC2274E2B500C22279 /* Production.xcconfig */,
+				9A207EEA22750BF900C22279 /* Environment.swift */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9A2CBD9522752F99009EFD63 /* Shows */ = {
+			isa = PBXGroup;
+			children = (
+				9A2CBD9622752FE0009EFD63 /* Show.swift */,
+				9A2CBDAA2275335A009EFD63 /* ShowsTVMazeOperations.swift */,
+			);
+			path = Shows;
+			sourceTree = "<group>";
+		};
+		9A2CBD98227530B6009EFD63 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9A2CBD9C227532B4009EFD63 /* Schedule+CoreDataClass.swift */,
+				9A2CBD9D227532B4009EFD63 /* Schedule+CoreDataProperties.swift */,
+				9A2CBD9E227532B4009EFD63 /* Favorite+CoreDataClass.swift */,
+				9A2CBD9F227532B4009EFD63 /* Favorite+CoreDataProperties.swift */,
+				9A2CBDA0227532B4009EFD63 /* Episode+CoreDataClass.swift */,
+				9A2CBDA1227532B4009EFD63 /* Episode+CoreDataProperties.swift */,
+				9A2CBD99227530CB009EFD63 /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		9A4C648C22724ECF002A6A74 = {
@@ -177,11 +285,11 @@
 		9A4C649722724ECF002A6A74 /* JobsityChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				9A207ED72274E25600C22279 /* Configuration */,
 				9A207EB322743AC300C22279 /* Scenes */,
 				9A207EAF2274391600C22279 /* Models */,
+				9A929951227834BD008E8260 /* Utilities */,
+				9A207ED72274E25600C22279 /* Configuration */,
 				9A4C649822724ECF002A6A74 /* AppDelegate.swift */,
-				9A4C649A22724ECF002A6A74 /* ViewController.swift */,
 				9A4C649C22724ECF002A6A74 /* Main.storyboard */,
 				9A4C649F22724ED0002A6A74 /* Assets.xcassets */,
 				9A4C64A122724ED0002A6A74 /* LaunchScreen.storyboard */,
@@ -193,7 +301,8 @@
 		9A4C64AC22724ED1002A6A74 /* JobsityChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A4C64AD22724ED1002A6A74 /* JobsityChallengeTests.swift */,
+				9A929968227B7F8D008E8260 /* Shows */,
+				9A929965227B7DBA008E8260 /* JobsityChallengeTests-Bridging-Header.h */,
 				9A4C64AF22724ED1002A6A74 /* Info.plist */,
 			);
 			path = JobsityChallengeTests;
@@ -208,6 +317,66 @@
 			path = JobsityChallengeUITests;
 			sourceTree = "<group>";
 		};
+		9A92994C22782D36008E8260 /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				9A92994D22782D4D008E8260 /* ShowEpisode.swift */,
+				9A92994F22782FA0008E8260 /* ShowEpisodesTVMazeOperations.swift */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		9A929951227834BD008E8260 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9A929952227834D7008E8260 /* StringUtilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9A929954227835A4008E8260 /* ShowDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9A929955227835BE008E8260 /* ShowDetailController.swift */,
+				9A929957227835E1008E8260 /* ShowDetailViewModel.swift */,
+				9A929959227A8908008E8260 /* EpisodeDetail */,
+			);
+			path = ShowDetail;
+			sourceTree = "<group>";
+		};
+		9A929959227A8908008E8260 /* EpisodeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9A92995A227A8950008E8260 /* EpisodeDetailController.swift */,
+				9A92995C227A8964008E8260 /* EpisodeDetailViewModel.swift */,
+			);
+			path = EpisodeDetail;
+			sourceTree = "<group>";
+		};
+		9A92995E227AAED6008E8260 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9A929961227AAF03008E8260 /* SearchController.swift */,
+				9A929963227AAF1C008E8260 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9A929960227AAEE6008E8260 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9A929968227B7F8D008E8260 /* Shows */ = {
+			isa = PBXGroup;
+			children = (
+				9A929969227B7FB5008E8260 /* ShowsTVMazeOperationsTests.swift */,
+			);
+			path = Shows;
+			sourceTree = "<group>";
+		};
 		F183E5100BFF02FC011783D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +386,36 @@
 				8064F8994B98CE986FB9315C /* Pods-JobsityChallengeTests.release.xcconfig */,
 				89ABB1656561F21D5A87ACD1 /* Pods-JobsityChallengeUITests.debug.xcconfig */,
 				AF95601084B05DBC7D760D1D /* Pods-JobsityChallengeUITests.release.xcconfig */,
+				D2247B012CC6E100B0A4E172 /* Pods-JobsityChallenge.debug (development).xcconfig */,
+				E123BAAD1AB95476A8E9E3F3 /* Pods-JobsityChallenge.debug (uat).xcconfig */,
+				4B0D1AF3670B425C291696EE /* Pods-JobsityChallenge.debug (qa).xcconfig */,
+				42A920F1AF78D66492A46E33 /* Pods-JobsityChallenge.debug (beta).xcconfig */,
+				5DE001FF308B3E9BCD3B3DEE /* Pods-JobsityChallenge.debug (production).xcconfig */,
+				585DAF01C2F7711B4D862B97 /* Pods-JobsityChallenge.release (development).xcconfig */,
+				1401B918545129EEF31D2AB5 /* Pods-JobsityChallenge.release (uat).xcconfig */,
+				0B5CF253182F08120845AF06 /* Pods-JobsityChallenge.release (qa).xcconfig */,
+				E774AE5F8D6A03C9AFFD75D4 /* Pods-JobsityChallenge.release (beta).xcconfig */,
+				4AB9C2D712EE3CCE37A966AB /* Pods-JobsityChallenge.release (production).xcconfig */,
+				46372F843A91F0EAF91437EF /* Pods-JobsityChallengeTests.debug (development).xcconfig */,
+				79505E8008EFF22FDABDF1A1 /* Pods-JobsityChallengeTests.debug (uat).xcconfig */,
+				800CE7404EA4DC66C2168207 /* Pods-JobsityChallengeTests.debug (qa).xcconfig */,
+				5B0BA3051EE6E3E3C3FA0972 /* Pods-JobsityChallengeTests.debug (beta).xcconfig */,
+				859BCD71B6657B96BD468089 /* Pods-JobsityChallengeTests.debug (production).xcconfig */,
+				3DE8017F6FA5D8CD0500FA1C /* Pods-JobsityChallengeTests.release (development).xcconfig */,
+				DAFC1C2D3944EE787B464254 /* Pods-JobsityChallengeTests.release (uat).xcconfig */,
+				EA9F31667260E04830692519 /* Pods-JobsityChallengeTests.release (qa).xcconfig */,
+				89D5A0FD38BB60E0AA78F57B /* Pods-JobsityChallengeTests.release (beta).xcconfig */,
+				0BD88A1DA98AB195D16316B2 /* Pods-JobsityChallengeTests.release (production).xcconfig */,
+				B4E5E67D377EF8E600029D26 /* Pods-JobsityChallengeUITests.debug (development).xcconfig */,
+				E2A652E86B0759990A2F042D /* Pods-JobsityChallengeUITests.debug (uat).xcconfig */,
+				BCF938ADD4E116660F792A40 /* Pods-JobsityChallengeUITests.debug (qa).xcconfig */,
+				DC989814F9FE02C01CA43E55 /* Pods-JobsityChallengeUITests.debug (beta).xcconfig */,
+				7032ED63AA41C05C2F17F12C /* Pods-JobsityChallengeUITests.debug (production).xcconfig */,
+				A65D8BB3219FD68D502336AA /* Pods-JobsityChallengeUITests.release (development).xcconfig */,
+				0B3D4624CF333BB8A11D32C5 /* Pods-JobsityChallengeUITests.release (uat).xcconfig */,
+				E2559DFEF0E8B250DFE12BF9 /* Pods-JobsityChallengeUITests.release (qa).xcconfig */,
+				FB5FB5DFD7E78A7F42E466EA /* Pods-JobsityChallengeUITests.release (beta).xcconfig */,
+				C5546081FA222824CF984059 /* Pods-JobsityChallengeUITests.release (production).xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -296,6 +495,7 @@
 					};
 					9A4C64A822724ED1002A6A74 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 						TestTargetID = 9A4C649422724ECF002A6A74;
 					};
 					9A4C64B322724ED1002A6A74 = {
@@ -330,7 +530,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4C64A322724ED0002A6A74 /* LaunchScreen.storyboard in Resources */,
+				9A207EE922750A2600C22279 /* Production.xcconfig in Resources */,
 				9A4C64A022724ED0002A6A74 /* Assets.xcassets in Resources */,
+				9A207EE622750A1C00C22279 /* UAT.xcconfig in Resources */,
+				9A207EE522750A1900C22279 /* Development.xcconfig in Resources */,
+				9A207EE822750A2300C22279 /* Beta.xcconfig in Resources */,
+				9A207EE722750A1F00C22279 /* QA.xcconfig in Resources */,
 				9A4C649E22724ECF002A6A74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +635,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -438,6 +644,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -451,10 +658,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A207EB622743AE300C22279 /* SeriesController.swift in Sources */,
-				9A4C649B22724ECF002A6A74 /* ViewController.swift in Sources */,
+				9A2CBDA2227532B4009EFD63 /* Schedule+CoreDataClass.swift in Sources */,
+				9A2CBDAB2275335A009EFD63 /* ShowsTVMazeOperations.swift in Sources */,
+				9A2CBDA5227532B4009EFD63 /* Favorite+CoreDataProperties.swift in Sources */,
+				9A92995022782FA0008E8260 /* ShowEpisodesTVMazeOperations.swift in Sources */,
+				9A2CBD9722752FE0009EFD63 /* Show.swift in Sources */,
+				9A929956227835BE008E8260 /* ShowDetailController.swift in Sources */,
+				9A2CBDA6227532B4009EFD63 /* Episode+CoreDataClass.swift in Sources */,
+				9A207EB622743AE300C22279 /* ShowsController.swift in Sources */,
+				9A2CBDA3227532B4009EFD63 /* Schedule+CoreDataProperties.swift in Sources */,
+				9A2CBD9B227530CB009EFD63 /* Model.xcdatamodeld in Sources */,
 				9A207EB22274393E00C22279 /* TVMazeCommunications.swift in Sources */,
+				9A92995D227A8964008E8260 /* EpisodeDetailViewModel.swift in Sources */,
+				9A2CBDAD2277FB9B009EFD63 /* ShowCell.swift in Sources */,
+				9A2CBDA922753319009EFD63 /* ShowsViewModel.swift in Sources */,
+				9A929953227834D7008E8260 /* StringUtilities.swift in Sources */,
+				9A2CBDA4227532B4009EFD63 /* Favorite+CoreDataClass.swift in Sources */,
+				9A929962227AAF03008E8260 /* SearchController.swift in Sources */,
+				9A92994E22782D4D008E8260 /* ShowEpisode.swift in Sources */,
+				9A929964227AAF1C008E8260 /* SearchViewModel.swift in Sources */,
 				9A4C649922724ECF002A6A74 /* AppDelegate.swift in Sources */,
+				9A929958227835E1008E8260 /* ShowDetailViewModel.swift in Sources */,
+				9A92995B227A8950008E8260 /* EpisodeDetailController.swift in Sources */,
+				9A207EEB22750BF900C22279 /* Environment.swift in Sources */,
+				9A2CBDA7227532B4009EFD63 /* Episode+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +689,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4C64AE22724ED1002A6A74 /* JobsityChallengeTests.swift in Sources */,
+				9A92996A227B7FB5008E8260 /* ShowsTVMazeOperationsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +800,7 @@
 		};
 		9A207EB822743C3800C22279 /* Debug (Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71083199EADA4A23E5164D2 /* Pods-JobsityChallenge.debug.xcconfig */;
+			baseConfigurationReference = 5DE001FF308B3E9BCD3B3DEE /* Pods-JobsityChallenge.debug (production).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,10 +819,11 @@
 		};
 		9A207EB922743C3800C22279 /* Debug (Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39E67334089C6BB5F33A13F4 /* Pods-JobsityChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 859BCD71B6657B96BD468089 /* Pods-JobsityChallengeTests.debug (production).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -606,6 +834,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -614,7 +844,7 @@
 		};
 		9A207EBA22743C3800C22279 /* Debug (Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89ABB1656561F21D5A87ACD1 /* Pods-JobsityChallengeUITests.debug.xcconfig */;
+			baseConfigurationReference = 7032ED63AA41C05C2F17F12C /* Pods-JobsityChallengeUITests.debug (production).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -697,7 +927,7 @@
 		};
 		9A207EBC22743C3B00C22279 /* Debug (Beta) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71083199EADA4A23E5164D2 /* Pods-JobsityChallenge.debug.xcconfig */;
+			baseConfigurationReference = 42A920F1AF78D66492A46E33 /* Pods-JobsityChallenge.debug (beta).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -716,10 +946,11 @@
 		};
 		9A207EBD22743C3B00C22279 /* Debug (Beta) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39E67334089C6BB5F33A13F4 /* Pods-JobsityChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 5B0BA3051EE6E3E3C3FA0972 /* Pods-JobsityChallengeTests.debug (beta).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -730,6 +961,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -738,7 +971,7 @@
 		};
 		9A207EBE22743C3B00C22279 /* Debug (Beta) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89ABB1656561F21D5A87ACD1 /* Pods-JobsityChallengeUITests.debug.xcconfig */;
+			baseConfigurationReference = DC989814F9FE02C01CA43E55 /* Pods-JobsityChallengeUITests.debug (beta).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -821,7 +1054,7 @@
 		};
 		9A207EC022743C3D00C22279 /* Debug (QA) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71083199EADA4A23E5164D2 /* Pods-JobsityChallenge.debug.xcconfig */;
+			baseConfigurationReference = 4B0D1AF3670B425C291696EE /* Pods-JobsityChallenge.debug (qa).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -840,10 +1073,11 @@
 		};
 		9A207EC122743C3D00C22279 /* Debug (QA) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39E67334089C6BB5F33A13F4 /* Pods-JobsityChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 800CE7404EA4DC66C2168207 /* Pods-JobsityChallengeTests.debug (qa).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -854,6 +1088,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -862,7 +1098,7 @@
 		};
 		9A207EC222743C3D00C22279 /* Debug (QA) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89ABB1656561F21D5A87ACD1 /* Pods-JobsityChallengeUITests.debug.xcconfig */;
+			baseConfigurationReference = BCF938ADD4E116660F792A40 /* Pods-JobsityChallengeUITests.debug (qa).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -945,7 +1181,7 @@
 		};
 		9A207EC422743C3F00C22279 /* Debug (UAT) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71083199EADA4A23E5164D2 /* Pods-JobsityChallenge.debug.xcconfig */;
+			baseConfigurationReference = E123BAAD1AB95476A8E9E3F3 /* Pods-JobsityChallenge.debug (uat).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -964,10 +1200,11 @@
 		};
 		9A207EC522743C3F00C22279 /* Debug (UAT) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39E67334089C6BB5F33A13F4 /* Pods-JobsityChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 79505E8008EFF22FDABDF1A1 /* Pods-JobsityChallengeTests.debug (uat).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -978,6 +1215,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -986,7 +1225,7 @@
 		};
 		9A207EC622743C3F00C22279 /* Debug (UAT) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89ABB1656561F21D5A87ACD1 /* Pods-JobsityChallengeUITests.debug.xcconfig */;
+			baseConfigurationReference = E2A652E86B0759990A2F042D /* Pods-JobsityChallengeUITests.debug (uat).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1063,7 +1302,7 @@
 		};
 		9A207EC822743C7100C22279 /* Release (QA) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32CB9E227C1220601B800BD0 /* Pods-JobsityChallenge.release.xcconfig */;
+			baseConfigurationReference = 0B5CF253182F08120845AF06 /* Pods-JobsityChallenge.release (qa).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1082,10 +1321,11 @@
 		};
 		9A207EC922743C7100C22279 /* Release (QA) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8064F8994B98CE986FB9315C /* Pods-JobsityChallengeTests.release.xcconfig */;
+			baseConfigurationReference = EA9F31667260E04830692519 /* Pods-JobsityChallengeTests.release (qa).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -1096,6 +1336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -1104,7 +1345,7 @@
 		};
 		9A207ECA22743C7100C22279 /* Release (QA) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF95601084B05DBC7D760D1D /* Pods-JobsityChallengeUITests.release.xcconfig */;
+			baseConfigurationReference = E2559DFEF0E8B250DFE12BF9 /* Pods-JobsityChallengeUITests.release (qa).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1181,7 +1422,7 @@
 		};
 		9A207ECC22743C7300C22279 /* Release (Beta) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32CB9E227C1220601B800BD0 /* Pods-JobsityChallenge.release.xcconfig */;
+			baseConfigurationReference = E774AE5F8D6A03C9AFFD75D4 /* Pods-JobsityChallenge.release (beta).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1200,10 +1441,11 @@
 		};
 		9A207ECD22743C7300C22279 /* Release (Beta) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8064F8994B98CE986FB9315C /* Pods-JobsityChallengeTests.release.xcconfig */;
+			baseConfigurationReference = 89D5A0FD38BB60E0AA78F57B /* Pods-JobsityChallengeTests.release (beta).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -1214,6 +1456,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -1222,7 +1465,7 @@
 		};
 		9A207ECE22743C7300C22279 /* Release (Beta) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF95601084B05DBC7D760D1D /* Pods-JobsityChallengeUITests.release.xcconfig */;
+			baseConfigurationReference = FB5FB5DFD7E78A7F42E466EA /* Pods-JobsityChallengeUITests.release (beta).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1299,7 +1542,7 @@
 		};
 		9A207ED022743C7600C22279 /* Release (Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32CB9E227C1220601B800BD0 /* Pods-JobsityChallenge.release.xcconfig */;
+			baseConfigurationReference = 4AB9C2D712EE3CCE37A966AB /* Pods-JobsityChallenge.release (production).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1318,10 +1561,11 @@
 		};
 		9A207ED122743C7600C22279 /* Release (Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8064F8994B98CE986FB9315C /* Pods-JobsityChallengeTests.release.xcconfig */;
+			baseConfigurationReference = 0BD88A1DA98AB195D16316B2 /* Pods-JobsityChallengeTests.release (production).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -1332,6 +1576,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -1340,7 +1585,7 @@
 		};
 		9A207ED222743C7600C22279 /* Release (Production) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF95601084B05DBC7D760D1D /* Pods-JobsityChallengeUITests.release.xcconfig */;
+			baseConfigurationReference = C5546081FA222824CF984059 /* Pods-JobsityChallengeUITests.release (production).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1417,7 +1662,7 @@
 		};
 		9A207ED422743C7B00C22279 /* Release (UAT) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32CB9E227C1220601B800BD0 /* Pods-JobsityChallenge.release.xcconfig */;
+			baseConfigurationReference = 1401B918545129EEF31D2AB5 /* Pods-JobsityChallenge.release (uat).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1436,10 +1681,11 @@
 		};
 		9A207ED522743C7B00C22279 /* Release (UAT) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8064F8994B98CE986FB9315C /* Pods-JobsityChallengeTests.release.xcconfig */;
+			baseConfigurationReference = DAFC1C2D3944EE787B464254 /* Pods-JobsityChallengeTests.release (uat).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -1450,6 +1696,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -1458,7 +1705,7 @@
 		};
 		9A207ED622743C7B00C22279 /* Release (UAT) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF95601084B05DBC7D760D1D /* Pods-JobsityChallengeUITests.release.xcconfig */;
+			baseConfigurationReference = 0B3D4624CF333BB8A11D32C5 /* Pods-JobsityChallengeUITests.release (uat).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1597,7 +1844,7 @@
 		};
 		9A4C64BE22724ED1002A6A74 /* Debug (Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F71083199EADA4A23E5164D2 /* Pods-JobsityChallenge.debug.xcconfig */;
+			baseConfigurationReference = D2247B012CC6E100B0A4E172 /* Pods-JobsityChallenge.debug (development).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1616,7 +1863,7 @@
 		};
 		9A4C64BF22724ED1002A6A74 /* Release (Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32CB9E227C1220601B800BD0 /* Pods-JobsityChallenge.release.xcconfig */;
+			baseConfigurationReference = 585DAF01C2F7711B4D862B97 /* Pods-JobsityChallenge.release (development).xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1635,10 +1882,11 @@
 		};
 		9A4C64C122724ED1002A6A74 /* Debug (Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39E67334089C6BB5F33A13F4 /* Pods-JobsityChallengeTests.debug.xcconfig */;
+			baseConfigurationReference = 46372F843A91F0EAF91437EF /* Pods-JobsityChallengeTests.debug (development).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -1649,6 +1897,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -1657,10 +1907,11 @@
 		};
 		9A4C64C222724ED1002A6A74 /* Release (Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8064F8994B98CE986FB9315C /* Pods-JobsityChallengeTests.release.xcconfig */;
+			baseConfigurationReference = 3DE8017F6FA5D8CD0500FA1C /* Pods-JobsityChallengeTests.release (development).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AM9Q2LU3N;
 				INFOPLIST_FILE = JobsityChallenge/Info.plist;
@@ -1671,6 +1922,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rolibardobji.JobsityChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JobsityChallengeTests/JobsityChallengeTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobsityChallenge.app/JobsityChallenge";
@@ -1679,7 +1931,7 @@
 		};
 		9A4C64C422724ED1002A6A74 /* Debug (Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89ABB1656561F21D5A87ACD1 /* Pods-JobsityChallengeUITests.debug.xcconfig */;
+			baseConfigurationReference = B4E5E67D377EF8E600029D26 /* Pods-JobsityChallengeUITests.debug (development).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1700,7 +1952,7 @@
 		};
 		9A4C64C522724ED1002A6A74 /* Release (Development) */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF95601084B05DBC7D760D1D /* Pods-JobsityChallengeUITests.release.xcconfig */;
+			baseConfigurationReference = A65D8BB3219FD68D502336AA /* Pods-JobsityChallengeUITests.release (development).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1791,6 +2043,19 @@
 			defaultConfigurationName = "Release (Development)";
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A2CBD99227530CB009EFD63 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A2CBD9A227530CB009EFD63 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9A2CBD9A227530CB009EFD63 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9A4C648D22724ECF002A6A74 /* Project object */;
 }

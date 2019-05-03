@@ -10,6 +10,7 @@ target 'JobsityChallenge' do
   pod 'Alamofire'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'SDWebImage'
 
   target 'JobsityChallengeTests' do
     inherit! :search_paths
