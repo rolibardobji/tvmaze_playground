@@ -8,13 +8,13 @@
 
 import UIKit
 
+enum ShowEpisodesResponse {
+    case success([ShowEpisode])
+    case error(String)
+}
+
 class ShowEpisodesTVMazeOperations: NSObject {
     private var API: TVMazeCommunicationsOutline
-    
-    enum ShowEpisodesResponse {
-        case success([ShowEpisode])
-        case error(String)
-    }
     
     init(api: TVMazeCommunicationsOutline) {
         API = api
